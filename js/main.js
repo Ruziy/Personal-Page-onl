@@ -159,6 +159,34 @@ document.querySelector('.slider__btn-10').addEventListener('click', function() {
     document.querySelector('.solution__img-10').classList.toggle('solution__img-active');
     document.querySelector('.slider__solution-10').classList.toggle('slider__solution-activeSecond');
 })  
+document.querySelector('.slider__btn-11').addEventListener('click', function() {
+    document.querySelector('.solution__img-11').classList.toggle('solution__img-active');
+    document.querySelector('.slider__solution-11').classList.toggle('slider__solution-activeSecond');
+})  
+document.querySelector('.slider__btn-12').addEventListener('click', function() {
+    document.querySelector('.solution__img-12').classList.toggle('solution__img-active');
+    document.querySelector('.slider__solution-12').classList.toggle('slider__solution-activeSecond');
+})  
+document.querySelector('.slider__btn-13').addEventListener('click', function() {
+    document.querySelector('.solution__img-13').classList.toggle('solution__img-active');
+    document.querySelector('.slider__solution-13').classList.toggle('slider__solution-activeSecond');
+})  
+document.querySelector('.slider__btn-14').addEventListener('click', function() {
+    document.querySelector('.solution__img-14').classList.toggle('solution__img-active');
+    document.querySelector('.slider__solution-14').classList.toggle('slider__solution-activeSecond');
+})  
+document.querySelector('.slider__btn-15').addEventListener('click', function() {
+    document.querySelector('.solution__img-15').classList.toggle('solution__img-active');
+    document.querySelector('.slider__solution-15').classList.toggle('slider__solution-activeSecond');
+})  
+document.querySelector('.slider__btn-16').addEventListener('click', function() {
+    document.querySelector('.solution__img-16').classList.toggle('solution__img-active');
+    document.querySelector('.slider__solution-16').classList.toggle('slider__solution-activeSecond');
+})  
+document.querySelector('.slider__btn-17').addEventListener('click', function() {
+    document.querySelector('.solution__img-17').classList.toggle('solution__img-active');
+    document.querySelector('.slider__solution-17').classList.toggle('slider__solution-activeSecond');
+})  
 }
 catch{
 
