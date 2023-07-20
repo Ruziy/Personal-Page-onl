@@ -179,7 +179,7 @@
     &__chooseColorBlock {
         
     }
-
+ 
     // .setting__chooseColor
 
     &__chooseColor {
@@ -839,7 +839,6 @@
 
 .copyright {
     font-size: 16px;
-
     & p+p {
         margin-top: 0.5em;
     }
@@ -851,7 +850,7 @@
 
 #circle {
     position: relative;
-    width: 36%;
+    
     padding-top: 30%;
     border-radius: 100%;
     /* сделать "резиновый" круг */
