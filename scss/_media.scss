@@ -1,16 +1,32 @@
-@media (max-width:769px){
+@media (max-width:1024px){
+    #circle{
+        width: 42%;
+    }
     .about-me{
-        &__inner{
-            display: block;
+        &__avatar{
+            left: 9%;
+        }
+    }
+}
+@media (max-width:1000px){
+    #circle{
+        display: none;
+    }
+    .about-me{
+        &__avatar{
+            display: none;
         }
         &__info{
             margin: 0 auto;
             text-align: center;
         }
     }
-    #circle{
-        margin: 0 auto;
-        margin-bottom: 20px;
+}
+@media (max-width:769px){
+    .about-me{
+        &__inner{
+            display: block;
+        }
     }
     .content-list{
         &__inner{
@@ -96,9 +112,6 @@
             height: unset;
         }
     }
-    #circle{
-        display: none;
-    }
     .slider{
         &__link span{
             display: none;
@@ -107,8 +120,16 @@
             display: unset;
         }
     }
+    .about-me{
+        &__title{
+            font-size: 37px;
+        }
+        &__text{
+            font-size: 16px;
+        }
+    }
 }
-@media (max-width:374px){
+@media (max-width:376px){
     .nav{
         &-list{
             margin: 0 auto;
@@ -126,6 +147,12 @@
     .setting{
         &__block{
             margin-right: auto;
+        }
+    }
+    .title-2{
+        font-size: 25px;
+        &__contacts{
+            font-size: 30px !important;
         }
     }
 }
