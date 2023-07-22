@@ -568,6 +568,19 @@
 }
 .slider__solution{
     // &-active,
+    color: #000000;
+    // &-js{
+    //     color: unset !important;
+    // }
+    &-active-2{
+        color: red !;
+    }
+    &-active{
+        color: green;
+    }
+    &-activeSecond{
+        color:rgb(255, 213, 0); 
+    }
     &-1:active,
     &-2:active,
     &-3:active,

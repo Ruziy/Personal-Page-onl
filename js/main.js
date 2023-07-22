@@ -186,8 +186,62 @@ document.querySelector('.slider__btn-16').addEventListener('click', function() {
 document.querySelector('.slider__btn-17').addEventListener('click', function() {
     document.querySelector('.solution__img-17').classList.toggle('solution__img-active');
     document.querySelector('.slider__solution-17').classList.toggle('slider__solution-activeSecond');
-})  
-}
+})
+
+//Remove img
+
+document.querySelector('.solution__img-1').addEventListener('click', function() {
+    document.querySelector('.solution__img-1').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-2').addEventListener('click', function() {
+    document.querySelector('.solution__img-2').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-3').addEventListener('click', function() {
+    document.querySelector('.solution__img-3').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-4').addEventListener('click', function() {
+    document.querySelector('.solution__img-4').classList.remove('solution__img-active');
+})
+document.querySelector('.solution__img-5').addEventListener('click', function() {
+    document.querySelector('.solution__img-5').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-6').addEventListener('click', function() {
+    document.querySelector('.solution__img-6').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-7').addEventListener('click', function() {
+    document.querySelector('.solution__img-7').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-8').addEventListener('click', function() {
+    document.querySelector('.solution__img-8').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-9').addEventListener('click', function() {
+    document.querySelector('.solution__img-9').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-10').addEventListener('click', function() {
+    document.querySelector('.solution__img-10').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-11').addEventListener('click', function() {
+    document.querySelector('.solution__img-11').classList.remove('solution__img-active');
+})
+document.querySelector('.solution__img-12').addEventListener('click', function() {
+    document.querySelector('.solution__img-12').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-13').addEventListener('click', function() {
+    document.querySelector('.solution__img-13').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-14').addEventListener('click', function() {
+    document.querySelector('.solution__img-14').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-15').addEventListener('click', function() {
+    document.querySelector('.solution__img-15').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-16').addEventListener('click', function() {
+    document.querySelector('.solution__img-16').classList.remove('solution__img-active');
+}) 
+document.querySelector('.solution__img-17').addEventListener('click', function() {
+    document.querySelector('.solution__img-17').classList.remove('solution__img-active');
+}) 
+} 
 catch{
 
 }
